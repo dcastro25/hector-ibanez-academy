@@ -1,4 +1,8 @@
 import { useEffect, useState } from "react"
+import { CgMail } from "react-icons/cg"
+import { IoLocationOutline } from "react-icons/io5"
+import { MdOutlinePhone } from "react-icons/md"
+import { ButtonPrimary } from "../../ui/ButtonPrimary"
 
 const navLinks =[
     {label: "Inicio", href:"/"},
@@ -21,18 +25,18 @@ export function DesktopNavbar(){
 
     return(
         <div className="sticky z-50 w-full top-0 border border-primaryBorder hidden lg:flex flex-col ">
-            <div className={`bg-[#1a1208] text-bgSecondary px-20 flex justify-between items-center transition-all duration-300 ease-out ${isAtTop ? "opacity-100 h-10 translate-y-0 border border-primaryBorder " : "opacity-0 h-0 -translate-y-full pointer-events-none"}`}>
+            <div className={`bg-[#1a1208] text-bgSecondary px-26 flex justify-between items-center transition-all duration-300 ease-out ${isAtTop ? "opacity-100 h-10 translate-y-0 border border-primaryBorder " : "opacity-0 h-0 -translate-y-full pointer-events-none"}`}>
                 <div className="flex gap-8">
-                    <a href="#">Gamil@gmail.com</a>
-                    <a href="#">322 332 2352</a>
-                    <a href="#">Monteria Cordoba</a>
+                    <a href="#" className="flex items-center gap-1"><CgMail /> Gamil@gmail.com</a>
+                    <a href="#" className="flex items-center gap-1"><MdOutlinePhone /> 322 332 2352</a>
+                    <a href="#" className="flex items-center gap-1"><IoLocationOutline /> Monteria / Cordoba</a>
                 </div>
 
                 <div>
                     <p> Inscripciones Abiertas 2026</p>
                 </div>
             </div>
-            <div className="flex flex-row justify-around items-center bg-bgPrimary py-5 ">
+            <div className="flex flex-row justify-between items-center bg-bgPrimary px-26 py-5 ">
                 <div className="max-w-6xl flex flex-row gap-4">
                     <img src="/img/logo.jpg" className="h-14 w-auto rounded-2xl"/>
                     <div>
@@ -59,9 +63,7 @@ export function DesktopNavbar(){
                         }
                     </ul>
                 </nav>
-                <button className="bg-bgSecondary px-4 py-1.5 font font-semibold rounded-lg hover:shadow-[0_6px_12px_rgba(207,142,30,0.25)] hover:-translate-y-0.5 transition-all duration-300 ease-out">
-                    Inscribete ahora
-                </button>
+                <ButtonPrimary text="Inscribete ahora"/>
             </div>
 
         </div>
