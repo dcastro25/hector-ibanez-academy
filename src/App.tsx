@@ -1,12 +1,15 @@
 
 import './App.css'
-import { PublicNavbar } from './app/layout/public/publicNavbar'
+import { DesktopNavbar } from './app/layout/public/PublicNavbar/DesktopNavbar'
+import { MobileMenu } from './app/layout/public/PublicNavbar/MobileMenu'
+
 
 function App() {
 
   return (
-    <div className="min-h-screen bg-[#080503]">
-      <PublicNavbar/>
+    <div className="min-h-screen h-300 bg-[#120b07]">
+      <DesktopNavbar/>
+      <MobileMenu/>
 
     </div>
 
