@@ -10,7 +10,7 @@ import { LuMusic } from "react-icons/lu";
 
 export function Hero() {
   return (
-    <header className=" grid grid-cols-2 mt-6 px-26">
+    <header className=" hidden lg:grid grid-cols-2 mt-6 px-26">
         <div>
                 <div className="border-b border-b-primaryBorder">
                     <Pill text="Tradicion y Pasion Vallenata" icon={<IoIosMusicalNotes/>}/>
