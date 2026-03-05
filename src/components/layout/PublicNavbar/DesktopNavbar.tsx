@@ -31,7 +31,6 @@ export function DesktopNavbar(){
                     <a href="#" className="flex items-center gap-1"><MdOutlinePhone /> 322 332 2352</a>
                     <a href="#" className="flex items-center gap-1"><IoLocationOutline /> Monteria / Cordoba</a>
                 </div>
-
                 <div>
                     <p> Inscripciones Abiertas 2026</p>
                 </div>
@@ -44,7 +43,6 @@ export function DesktopNavbar(){
                         <p className="text-textSecondary">Escuela vallenata</p>
                     </div>
                 </div>
-
                 <nav >
                     <ul className="w-full flex flex-row gap-8">
                         {
@@ -65,7 +63,6 @@ export function DesktopNavbar(){
                 </nav>
                 <ButtonPrimary text="Inscribete ahora"/>
             </div>
-
         </div>
     )
-                    }   
+}   

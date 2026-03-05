@@ -7,6 +7,7 @@ import StatCard from "../../../components/ui/StatCard";
 import { FaUserGraduate } from "react-icons/fa";
 import { PiMedalBold } from "react-icons/pi";
 import { LuMusic } from "react-icons/lu";
+import { Text } from "../../../components/ui/Text";
 
 export function Hero() {
   return (
@@ -23,9 +24,10 @@ export function Hero() {
                         con los Mejores Maestros
                     </h1>
 
-                    <p className="text-textSecondary text-lg my-7 font-semibold ">
-                        Descubre la magia de la musica caribeña colombiana. Cursos de acordeon, caja, guacharaca y las canciones que han marcado generaciones. Desde principiantes hasta avanzados.
-                    </p>
+                    <Text 
+                        children="Descubre la magia de la musica caribeña colombiana. Cursos de acordeon, caja, guacharaca y las canciones que han marcado generaciones. Desde principiantes hasta avanzados."
+                    />
+
                     <div className="flex gap-6 mb-14">
                         <ButtonPrimary text="Comenzar Mi Viaje Musical"/>
                         <ButtonSecondary text="Ver Presentacion" icon={<CiPlay1 />}/>
@@ -33,7 +35,7 @@ export function Hero() {
 
                 </div>
 
-                <div className="mt-7 flex gap-7">
+                <div className="mt-12 flex gap-7">
                     <StatCard icon={<FaUserGraduate />} text={"500"} text2="Estudiantes Graduados"/>
                     <StatCard icon={<PiMedalBold />} text={"15"} text2="Anos de Experiencia"/>
                     <StatCard icon={<LuMusic />} text={"50"} text2="Cursos Disponibles"/>
