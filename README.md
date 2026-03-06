@@ -9,7 +9,7 @@ El objetivo actual es construir una **base sólida tanto en el frontend como en 
 
 ---
 
-## 🌐 Demo del Proyecto
+# 🌐 Demo del Proyecto
 
 Puedes ver una **versión inicial del proyecto en línea** en el siguiente enlace:
 
@@ -29,9 +29,21 @@ Además de ser una página informativa, el objetivo es construir una **aplicaci�
 
 ---
 
+# 📱 Diseño Responsive
+
+El proyecto está diseñado para funcionar correctamente en **diferentes tamaños de pantalla**, garantizando una buena experiencia tanto en:
+
+* 📱 **Dispositivos móviles**
+* 💻 **Computadores de escritorio**
+* 📟 **Tablets**
+
+Se está desarrollando siguiendo un enfoque **responsive-first**, asegurando que la interfaz sea clara, usable y visualmente atractiva en cualquier dispositivo.
+
+---
+
 # 🎯 Objetivo Final del Proyecto
 
-El objetivo final es crear una **plataforma profesional de cursos online** con múltiples funcionalidades avanzadas, incluyendo:
+El objetivo final es crear una **plataforma profesional de cursos online** con múltiples funcionalidades avanzadas.
 
 ### Para estudiantes
 
