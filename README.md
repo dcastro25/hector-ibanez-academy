@@ -1,73 +1,163 @@
-# React + TypeScript + Vite
+# Plataforma de Cursos – Escuela Vallenata Héctor Ibáñez
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚧 Estado del Proyecto
 
-Currently, two official plugins are available:
+Este proyecto se encuentra actualmente **en desarrollo**.
+Muchas funcionalidades aún están en proceso de construcción y otras serán implementadas en futuras etapas.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+El objetivo actual es construir una **base sólida tanto en el frontend como en el backend**, definiendo la arquitectura, los componentes reutilizables y la lógica principal de la plataforma.
 
-## React Compiler
+---
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+## 🌐 Demo del Proyecto
 
-## Expanding the ESLint configuration
+Puedes ver una **versión inicial del proyecto en línea** en el siguiente enlace:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+🔗 https://hector-ibanez-academy-dxpy.vercel.app
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Esta demo muestra principalmente el **diseño del frontend y la estructura inicial de la plataforma**, la cual seguirá evolucionando con nuevas funcionalidades.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+# 📖 Descripción del Proyecto
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Este proyecto consiste en el desarrollo de una **plataforma web completa para la venta y gestión de cursos**, inspirada inicialmente en la Escuela Vallenata Héctor Ibáñez.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+La plataforma permitirá a los usuarios **explorar, comprar y realizar cursos en línea**, mientras que los administradores podrán **gestionar estudiantes, cursos, contenido y métricas desde un dashboard avanzado**.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Además de ser una página informativa, el objetivo es construir una **aplicación web completa tipo plataforma educativa (EdTech)**.
+
+---
+
+# 🎯 Objetivo Final del Proyecto
+
+El objetivo final es crear una **plataforma profesional de cursos online** con múltiples funcionalidades avanzadas, incluyendo:
+
+### Para estudiantes
+
+* Registro e inicio de sesión
+* Exploración de cursos
+* Compra de cursos
+* Acceso al contenido del curso
+* Seguimiento del progreso
+* Panel personal de estudiante
+
+### Para administradores
+
+* Gestión completa de cursos
+* Gestión de estudiantes
+* Control de ventas
+* Monitoreo de actividad de usuarios
+* Dashboard con métricas y estadísticas
+* Automatización de procesos administrativos
+
+---
+
+# 🧩 Funcionalidades Planeadas
+
+## Sistema de usuarios
+
+* Registro e inicio de sesión
+* Sistema de autenticación
+* Recuperación de contraseña
+
+## Sistema de roles
+
+La plataforma contará con **un sistema de roles avanzado**, por ejemplo:
+
+* Administrador
+* Instructor
+* Estudiante
+
+Cada rol tendrá **permisos específicos dentro del sistema**.
+
+---
+
+## Sistema de cursos
+
+* Catálogo de cursos
+* Página individual de curso
+* Contenido estructurado por módulos y lecciones
+* Seguimiento de progreso del estudiante
+
+---
+
+## Sistema de compras
+
+* Compra de cursos
+* Registro de transacciones
+* Historial de compras
+* Control de acceso a contenido comprado
+
+---
+
+## Dashboard administrativo
+
+Se desarrollará un **dashboard complejo** que incluirá:
+
+* Métricas de ventas
+* Monitoreo de usuarios
+* Control de cursos
+* Estadísticas de estudiantes
+* Gestión del contenido educativo
+
+---
+
+## Sistema de monitoreo
+
+La plataforma incluirá herramientas para:
+
+* Monitorear actividad de usuarios
+* Analizar métricas del sistema
+* Evaluar rendimiento de cursos
+
+---
+
+# 🛠 Tecnologías del Proyecto
+
+## Frontend
+
+* **React**
+* **TypeScript**
+* **TailwindCSS**
+
+El frontend está diseñado con un enfoque **moderno, modular y completamente responsive**.
+
+---
+
+## Backend
+
+El backend será desarrollado utilizando **Python**, con el objetivo de construir la **API desde cero** para entender profundamente:
+
+* Manejo de rutas
+* Autenticación
+* Manejo de bases de datos
+* Lógica de negocio
+* Seguridad de la aplicación
+
+---
+
+# 🎨 Enfoque del Diseño
+
+El diseño del proyecto combina:
+
+* Una estética moderna
+* Inspiración cultural del vallenato
+* Interfaz clara y accesible
+* Experiencia optimizada para dispositivos móviles y escritorio
+
+---
+
+# 📌 Nota
+
+Este repositorio representa un **proyecto en constante evolución**, por lo que:
+
+* La arquitectura puede cambiar
+* Se agregarán nuevas funcionalidades
+* El código se optimizará con el tiempo
+
+---
+
+# 👨‍💻 Autor
+
+Desarrollado por **Oscar Castro** como parte de su proceso de aprendizaje y crecimiento en el desarrollo de software, con el objetivo de construir una **plataforma completa de cursos online y un backend robusto con Python**.
