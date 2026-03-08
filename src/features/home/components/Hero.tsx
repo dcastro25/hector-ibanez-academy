@@ -24,7 +24,7 @@ export function Hero() {
                         con los Mejores Maestros
                     </h1>
 
-                    <Text 
+                    <Text className="text-xs lg:text-lg lg:my-7"
                         children="Descubre la magia de la musica caribeña colombiana. Cursos de acordeon, caja, guacharaca y las canciones que han marcado generaciones. Desde principiantes hasta avanzados."
                     />
 

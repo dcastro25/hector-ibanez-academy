@@ -8,7 +8,7 @@ import { HeroMobile } from '../features/home/components/HeroMobile'
 function App() {
 
   return (
-    <div className="min-h-screen h-auto bg-bgPrimary">
+    <div className="min-h-screen h-auto bg-bgPrimary pb-10">
       <DesktopNavbar/>
       <MobileMenu/>
       <main>
