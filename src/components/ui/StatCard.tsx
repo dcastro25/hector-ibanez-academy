@@ -12,18 +12,18 @@ export default function StatCard({text, text2, icon} : Props) {
         <div className="flex flex-col items-center w-full max-w-27.5 sm:max-w-35 lg:max-w-45 py-2 sm:py-3 px-2 bg-bgTertiary rounded-xl border border-primaryBorder">
 
             <div className="flex items-center text-textPrimary">
-            <span className="text-bgSecondary text-base sm:text-lg">
-                {icon}
-            </span>
+                <span className="text-bgSecondary text-base sm:text-lg">
+                    {icon}
+                </span>
 
-            <p className="font-semibold ml-1 text-xl sm:text-2xl lg:text-3xl">
-                {text}
-            </p>
+                <p className="font-semibold ml-1 text-xl sm:text-2xl lg:text-3xl">
+                    {text}
+                </p>
 
-            <LiaPlusSolid className="text-lg sm:text-xl lg:text-2xl" />
+                <LiaPlusSolid className="text-lg sm:text-xl lg:text-2xl" />
             </div>
 
-            <p className="text-textSecondary text-center text-[10px] sm:text-xs lg:text-sm leading-tight">
+            <p className="text-textSecondary text-center text-xs sm:text-xs lg:text-base leading-tight">
             {text2}
             </p>
         </div>

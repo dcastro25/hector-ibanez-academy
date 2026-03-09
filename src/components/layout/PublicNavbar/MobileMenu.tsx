@@ -17,7 +17,7 @@ export function MobileMenu (){
     const [active, setActive] = useState<number | null>(null)
 
     return(
-        <div className="bg-bgPrimary w-full lg:hidden fixed bottom-0 border border-primaryBorder rounded-t-xl">
+        <div className="bg-bgPrimary w-full lg:hidden fixed bottom-0 border border-primaryBorder rounded-t-xl z-50">
             <nav>
                 <ul className =" text-textSecondary h-16 flex text-2xl justify-evenly items-center">
                     {

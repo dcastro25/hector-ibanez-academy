@@ -6,28 +6,28 @@ import { Text } from "../../../components/ui/Text";
 
 export default function About() {
     return (
-        <section className="flex flex-col lg:grid lg:grid-cols-2 px-5 lg:px-15 pb-12">
+        <section className="flex flex-col-reverse lg:grid lg:grid-cols-2 px-5 mb-10 mt-15 lg:px-25 gap-10">
 
             <div>
                 <ExperienceGallery/>
             </div>
             
 
-            <div className="pt-10 lg:pt-20">
+            <div className="h-auto flex flex-col justify-center">
                 <p className="text-bgSecondary font-semibold text-sm lg:text-xl py-1 lg:py-3">
                     Sobre Nosotros
                 </p>
-
+                
                 <SubTitle 
                     title="Mas de 15 Anos Formando"
                     span="Artistas del Vallenato"
                 />
                 
-                <Text className="text-xs lg:text-lg lg:my-7">
+                <Text className="text-md lg:text-xl">
                     La Escuela Vallenata Hector Ibanez nacio del sueno de preservar y difundir nuestra musica tradicional. Fundada por el maestro Hector Ibanez, reconocido acordeonero y compositor, nuestra escuela se ha convertido en un referente de la ensenanza musical en el Caribe colombiano.
                 </Text>
                 
-                <Text className="text-xs lg:text-lg lg:my-7">
+                <Text className="text-base lg:text-xl mb-7">
                     Creemos que la musica vallenata es mas que melodias: es historia, es cultura, es el alma de nuestra tierra. Por eso, cada clase es una experiencia que conecta a nuestros estudiantes con sus raices.
                 </Text >
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 justify-items-center">

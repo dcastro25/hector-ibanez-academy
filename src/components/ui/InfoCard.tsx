@@ -25,7 +25,7 @@ export default function InfoCard({title, text, icon} : Props) {
                     {title}
                 </h3>
 
-                <Text className="text-xs sm:text-sm mt-2">
+                <Text className="text-sm mt-2">
                     {text}
                 </Text>
                 </div>

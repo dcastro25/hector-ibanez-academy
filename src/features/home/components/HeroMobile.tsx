@@ -19,7 +19,7 @@ export function HeroMobile() {
                     <h1 className="text-textPrimary font-bold text-base">
                         Hector Ibañez
                     </h1>
-                    <p className="text-textSecondary text-sm">
+                    <p className="text-textSecondary text-base">
                         Escuela vallenata
                     </p>
                 </div>
@@ -55,7 +55,7 @@ export function HeroMobile() {
                             Vallenato
                             </span>
                         </h1>
-                        <p className="text-xs text-textSecondary mt-2">
+                        <p className="text-sm text-textSecondary mt-2">
                             Cursos de acordeón, caja y guacharaca con los mejores maestros.
                         </p>
                         <button className="mt-4 bg-bgSecondary text-black text-xs font-bold px-4 py-2 rounded-lg w-fit">
