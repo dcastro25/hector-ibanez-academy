@@ -6,9 +6,10 @@ interface Props{
 export default function SubTitle({title, span}: Props) {
     return (
         <div>
-            <h2 className="text-textPrimary text-xl lg:text-4xl font-bold">
-                {title} <span className="text-bgSecondary">{span}</span>
-            </h2>
+        <h2 className="text-textPrimary text-3xl lg:text-5xl xl:text-6xl font-bold flex flex-col leading-tight">
+            {title}
+            <span className="text-bgSecondary">{span}</span>
+        </h2>
         </div>
     )
 }

@@ -5,7 +5,7 @@ interface Props {
 
 export function Text({ children, className = "" } : Props) {
   return (
-    <p className={`text-textSecondary my-4 font-semibold ${className}`}>
+    <p className={`text-textSecondary my-4 ${className}`}>
       {children}
     </p>
   )
